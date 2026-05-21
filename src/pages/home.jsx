@@ -49,7 +49,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-7xl space-y-6">
           <SectionTitle
             eyebrow="Pilihan Hari Ini"
-            title="Rekomendasi Produk"
+            title="Rekomendasi Produk Terbaik"
             description="Produk pilihan untuk kebutuhan harian anabul, mulai dari pakan, vitamin, sampai perlengkapan favorit."
           />
 
