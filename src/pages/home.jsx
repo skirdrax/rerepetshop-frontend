@@ -35,7 +35,9 @@ export default function Home() {
       }, 800);
     } else {
       setVisibleCount(8);
-      document.getElementById('today-section')?.scrollIntoView({ behavior: 'smooth' });
+      document
+        .getElementById('today-section')
+        ?.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -47,11 +49,14 @@ export default function Home() {
         <div className="mx-auto w-full max-w-7xl space-y-6">
           <SectionTitle
             eyebrow="Pilihan Hari Ini"
-            title="Rekomendasi Produk"
+            title="Rekomendasi Produk bro"
             description="Produk pilihan untuk kebutuhan harian anabul, mulai dari pakan, vitamin, sampai perlengkapan favorit."
           />
 
-          <ProductSection products={products.slice(0, visibleCount)} isLoading={isLoading} />
+          <ProductSection
+            products={products.slice(0, visibleCount)}
+            isLoading={isLoading}
+          />
 
           <LoadMoreButton
             onClick={toggleVisible}
