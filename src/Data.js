@@ -108,7 +108,7 @@ export const branchList = [
   },
   {
     id: 4,
-    name: 'Petshop Rumah kucing',
+    name: 'Petshop Rumah Kucing',
     address: 'Kuta Jaya, Kec. Ps. Kemis, Kabupaten Tangerang, Banten',
     href: 'https://maps.app.goo.gl/jmiutxKqxbPTThcm6',
     hours: 'Setiap hari, 09.00 - 21.00',
@@ -136,7 +136,7 @@ export const branchList = [
   },
   {
     id: 7,
-    name: 'Petshop ReRe,Total Persada',
+    name: 'Petshop ReRe, Total Persada',
     address:
       'RHHM+497, Jl. Raya Villa Tangerang Indah, RT.004/RW.007, Gembor, Kec. Periuk, Kota Tangerang, Banten 15133',
     href: 'https://maps.app.goo.gl/Jm4AeZ2bVZXZpqPo9',
